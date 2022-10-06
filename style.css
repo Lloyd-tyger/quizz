@@ -25,7 +25,7 @@ main {
     flex-direction: column;
     color: white;
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
     border: solid green 4px;
 }
 
@@ -46,8 +46,15 @@ article {
 }
 
 aside {
-    border: solid blue 4px;
+    display: flex;
     width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    background: linear-gradient(217deg, rgba(29, 11, 78, 0.8), rgba(255, 0, 0, 0) 99.71%),
+    linear-gradient(127deg, rgba(88, 2, 37, 0.8), rgba(0, 255, 0, 0) 50.71%),
+    linear-gradient(336deg, rgba(136, 73, 175, 0.8), rgba(0, 0, 255, 0) 99.71%);
+    text-align: center;
+    align-items: center;
 }
 
 a{
