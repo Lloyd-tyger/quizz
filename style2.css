@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(217deg, rgba(46, 2, 170, 0.8), rgba(255, 0, 0, 0) 99.71%),
+                linear-gradient(127deg, rgba(138, 60, 91, 0.8), rgba(0, 255, 0, 0) 50.71%),
+                linear-gradient(336deg, rgba(45, 0, 71, 0.8), rgba(0, 0, 255, 0) 99.71%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: solid grey 4px;
+    width: 90vw;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: solid green 4px;
+}
+
+#imageQ{
+    margin-top: 5px;
+}
+
+article {
+
+}
+
+aside {
+    border: solid blue 4px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    height:5px;
+    border-width:0;
+    background-color:#00A4BD;
+  }
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+div[id^='article_']
+{
+    display: flex;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 70px;
+    width: 200px;
+    border: solid rgb(39, 0, 61) 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10px;
+}
+
+div[id^='reponse_']
+{
+    display: flex;
+    height: 50px;
+    border: solid rgb(39, 0, 61) 2px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    margin: 1px;
+}
+
+@keyframes noname {
+    0% {}
+
+    100% {}
+}
+
+#inputDescription{
+    height: 90px;
+}
